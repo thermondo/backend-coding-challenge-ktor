@@ -28,7 +28,7 @@ dependencies {
     // Ktor
     implementation("io.ktor:ktor-server-core:1.6.7")
     implementation("io.ktor:ktor-server-netty:1.6.7")
-    implementation("io.ktor:ktor-serialization:1.6.6")
+    implementation("io.ktor:ktor-serialization:1.6.7")
 
     // Logback
     implementation("ch.qos.logback:logback-classic:1.2.9")
@@ -39,7 +39,7 @@ dependencies {
 
     // Ktor
     testImplementation("io.ktor:ktor-server-tests:1.6.7")
-    testImplementation("io.ktor:ktor-server-test-host:1.6.6")
+    testImplementation("io.ktor:ktor-server-test-host:1.6.7")
 }
 
 tasks.withType<KotlinCompile> {
