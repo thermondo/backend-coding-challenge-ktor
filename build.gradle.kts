@@ -31,7 +31,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization:1.6.6")
 
     // Logback
-    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("ch.qos.logback:logback-classic:1.2.9")
 
     // Testing
     // Kotlin
