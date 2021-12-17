@@ -1,4 +1,4 @@
-name: Ktor Backend
+name: CI
 
 on:
   push:

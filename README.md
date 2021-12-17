@@ -1,3 +1,7 @@
+# Backend Coding Challenge
+
+[![Build Status](https://github.com/Thermondo/backend-coding-challenge-ktor/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/Thermondo/backend-coding-challenge-ktor/actions)
+
 We appreciate you taking the time to participate and submit a coding challenge. In the next step we would like you to
 create/extend a backend REST API for a simple note-taking app. Below you will find a list of tasks and limitations
 required for completing the challenge.
