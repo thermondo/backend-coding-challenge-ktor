@@ -8,7 +8,7 @@ version = System.getenv("VERSION") ?: "local"
 plugins {
     application
     kotlin("jvm").version("1.6.0")
-    kotlin("plugin.serialization") version "1.6.10"
+    kotlin("plugin.serialization") version "1.6.20"
 
     // Quality gate
     id("org.jmailen.kotlinter").version("3.7.0")
@@ -35,11 +35,11 @@ dependencies {
 
     // Testing
     // Kotlin
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.10")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.20")
 
     // Ktor
-    testImplementation("io.ktor:ktor-server-tests:1.6.8")
-    testImplementation("io.ktor:ktor-server-test-host:1.6.8")
+    testImplementation("io.ktor:ktor-server-tests:2.0.0")
+    testImplementation("io.ktor:ktor-server-test-host:2.0.0")
 }
 
 tasks.withType<KotlinCompile> {
