@@ -28,7 +28,7 @@ dependencies {
     // Ktor
     implementation("io.ktor:ktor-server-core:1.6.8")
     implementation("io.ktor:ktor-server-netty:1.6.8")
-    implementation("io.ktor:ktor-serialization:1.6.8")
+    implementation("io.ktor:ktor-serialization:2.0.0")
 
     // Logback
     implementation("ch.qos.logback:logback-classic:1.2.11")
