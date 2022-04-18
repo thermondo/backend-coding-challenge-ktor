@@ -27,7 +27,7 @@ repositories {
 dependencies {
     // Ktor
     implementation("io.ktor:ktor-server-core:1.6.8")
-    implementation("io.ktor:ktor-server-netty:1.6.8")
+    implementation("io.ktor:ktor-server-netty:2.0.0")
     implementation("io.ktor:ktor-serialization:1.6.8")
 
     // Logback
