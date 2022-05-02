@@ -39,7 +39,7 @@ dependencies {
 
     // Ktor
     testImplementation("io.ktor:ktor-server-tests:2.0.0")
-    testImplementation("io.ktor:ktor-server-test-host:2.0.0")
+    testImplementation("io.ktor:ktor-server-test-host:2.0.1")
 }
 
 tasks.withType<KotlinCompile> {
