@@ -38,7 +38,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.20")
 
     // Ktor
-    testImplementation("io.ktor:ktor-server-tests:2.0.0")
+    testImplementation("io.ktor:ktor-server-tests:2.1.1")
     testImplementation("io.ktor:ktor-server-test-host:2.0.0")
 }
 
