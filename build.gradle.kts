@@ -38,8 +38,8 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.7.20")
 
     // Ktor
-    testImplementation("io.ktor:ktor-server-tests:2.0.0")
-    testImplementation("io.ktor:ktor-server-test-host:2.0.0")
+    testImplementation("io.ktor:ktor-server-tests:2.1.2")
+    testImplementation("io.ktor:ktor-server-test-host:2.1.2")
 }
 
 tasks.withType<KotlinCompile> {
