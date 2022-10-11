@@ -13,7 +13,7 @@ plugins {
     // Quality gate
     id("org.jmailen.kotlinter").version("3.7.0")
     id("io.gitlab.arturbosch.detekt").version("1.19.0")
-    id("org.jetbrains.kotlinx.kover") version "0.5.0"
+    id("org.jetbrains.kotlinx.kover") version "0.6.1"
 }
 
 application {
@@ -31,7 +31,7 @@ dependencies {
     implementation("io.ktor:ktor-serialization:1.6.8")
 
     // Logback
-    implementation("ch.qos.logback:logback-classic:1.2.11")
+    implementation("ch.qos.logback:logback-classic:1.4.4")
 
     // Testing
     // Kotlin
