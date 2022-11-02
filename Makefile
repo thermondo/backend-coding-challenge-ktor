@@ -1,6 +1,6 @@
-.PHONY: all build clean format lint report test upload-coverage
+.PHONY: all build clean format lint test
 
-all: clean lint test build
+all: clean format lint test build
 
 build:
 	./gradlew build
@@ -16,4 +16,3 @@ lint:
 
 test:
 	./gradlew test
-
