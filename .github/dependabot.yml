@@ -12,7 +12,7 @@ updates:
       - dependencies
     rebase-strategy: disabled
 
-  - package-ecosystem: "github-actions"
+  - package-ecosystem: "dependencies"
     directory: "/"
     schedule:
       interval: weekly
