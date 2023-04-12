@@ -2,7 +2,6 @@ package com.thermondo
 
 import com.thermondo.models.User
 import com.thermondo.service.AuthService
-import com.thermondo.service.DatabaseFactory
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.request.post
 import io.ktor.client.request.setBody
@@ -11,7 +10,6 @@ import io.ktor.http.ContentType
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.contentType
 import io.ktor.serialization.jackson.jackson
-import io.ktor.server.testing.TestApplicationEngine
 import io.ktor.server.testing.testApplication
 import io.mockk.coEvery
 import io.mockk.every
@@ -19,8 +17,6 @@ import io.mockk.mockk
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.Transaction
 import org.jetbrains.exposed.sql.transactions.TransactionManager
-import org.koin.dsl.module
-import org.koin.java.KoinJavaComponent.inject
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.assertEquals
