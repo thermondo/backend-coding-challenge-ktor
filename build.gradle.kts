@@ -7,7 +7,7 @@ version = System.getenv("VERSION") ?: "local"
 
 plugins {
     application
-    kotlin("jvm").version("1.7.20")
+    kotlin("jvm").version("1.9.23")
     kotlin("plugin.serialization") version "1.8.10"
 
     // Quality gate
