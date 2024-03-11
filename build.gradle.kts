@@ -26,10 +26,10 @@ repositories {
 
 dependencies {
     // Ktor
-    implementation("io.ktor:ktor-server-core:2.1.3")
-    implementation("io.ktor:ktor-server-netty:2.1.3")
-    implementation("io.ktor:ktor-server-content-negotiation:2.1.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.1.3")
+    implementation("io.ktor:ktor-server-core:2.3.9")
+    implementation("io.ktor:ktor-server-netty:2.3.9")
+    implementation("io.ktor:ktor-server-content-negotiation:2.3.9")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.9")
 
     // Logback
     implementation("ch.qos.logback:logback-classic:1.4.4")
@@ -39,8 +39,8 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.7.20")
 
     // Ktor
-    testImplementation("io.ktor:ktor-server-tests:2.1.2")
-    testImplementation("io.ktor:ktor-server-test-host:2.1.2")
+    testImplementation("io.ktor:ktor-server-tests:2.3.9")
+    testImplementation("io.ktor:ktor-server-test-host:2.3.9")
 }
 
 tasks.withType<KotlinCompile> {
