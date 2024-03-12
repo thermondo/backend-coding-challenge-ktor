@@ -11,7 +11,7 @@ plugins {
     kotlin("plugin.serialization") version "1.9.23"
 
     // Quality gate
-    id("org.jmailen.kotlinter").version("3.7.0")
+    id("org.jmailen.kotlinter").version("4.2.0")
     id("io.gitlab.arturbosch.detekt").version("1.23.5")
     id("org.jetbrains.kotlinx.kover") version "0.7.6"
 }
