@@ -14,7 +14,6 @@ fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 // NOTE: Referenced in application.conf
 @Suppress("unused")
 fun Application.module(testing: Boolean = false) {
-
     install(ContentNegotiation) {
         json()
     }
