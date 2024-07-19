@@ -8,7 +8,7 @@ version = System.getenv("VERSION") ?: "local"
 plugins {
     application
     kotlin("jvm").version("1.9.23")
-    kotlin("plugin.serialization") version "1.9.23"
+    kotlin("plugin.serialization") version "1.9.25"
 
     // Quality gate
     id("org.jmailen.kotlinter").version("4.2.0")
