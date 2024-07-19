@@ -13,7 +13,7 @@ plugins {
     // Quality gate
     id("org.jmailen.kotlinter").version("4.2.0")
     id("io.gitlab.arturbosch.detekt").version("1.23.5")
-    id("org.jetbrains.kotlinx.kover") version "0.7.6"
+    id("org.jetbrains.kotlinx.kover") version "0.8.3"
 }
 
 application {
